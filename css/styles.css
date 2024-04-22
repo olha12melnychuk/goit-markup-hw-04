@@ -1,0 +1,314 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+}
+
+.header-top .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 76px;
+}
+
+.header-top .container,
+.header-nav {
+  display: flex;
+}
+
+.header-top {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-nav {
+  align-items: center;
+}
+
+.header-nav .menu {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 332px;
+}
+
+.contacts .address-list {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
+}
+
+.accent {
+  color: #2e2f42;
+}
+
+.page-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+
+.page-link:hover,
+.page-link:focus,
+.address-link .link:hover,
+.address-link .link:focus {
+  color: #404bbf;
+}
+
+.page-link:active {
+  text-decoration: underline;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.header {
+  display: block;
+  margin: 0 auto;
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+
+.container .btn {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.our-advantages .our-advantages-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.our-advantages-menu-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.our-advantages .container {
+  display: flex;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.address-list .link {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+  color: #404bbf;
+}
+
+
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.underheader {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.text {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.section-hero {
+  background-color: #2e2f42;
+}
+
+.section-hero .header {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.section-hero .btn:hover,
+.section-hero .btn:focus {
+  background-color: #404bbf;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.card-container {
+  display: flex;
+  gap: 24px;
+}
+
+.position-container {
+  padding: 32px 0;
+}
+
+.position-container .underheader {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.position-container .text {
+  text-align: center;
+}
+
+
+.card-content .thumb {
+  width: 264px;
+  height: 260px;
+  margin-bottom: 32px;
+}
+
+.portfolio-list-item .thumb {
+  width: 360px;
+  height: 300px;
+}
+
+.thumb img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.section-header {
+  margin-bottom: 72px;
+}
+
+.card-content {
+  border-radius: 0px 0px 4px 4px;
+  width: 264px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 48px 24px;
+  flex-wrap: wrap;
+}
+
+.portfolio-list-item {
+  width: 360px;
+}
+
+.text-item {
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+}
+
+.page-end {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #2e2f42;
+}
+
+.page-end .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.page-end .accent {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  width: 264px;
+}
