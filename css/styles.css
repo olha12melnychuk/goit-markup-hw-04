@@ -158,6 +158,23 @@ rgba(46, 47, 66, 0.7)
   display: flex;
 }
 
+.feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  border: 1px solid rgba(142, 143, 153, 1);
+  background-color: rgba(244, 244, 253, 1);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
