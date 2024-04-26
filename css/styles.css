@@ -59,11 +59,16 @@ a {
 
 .header-top {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-nav {
   align-items: center;
 }
+
+
 
 .header-nav .menu {
   display: flex;
@@ -102,6 +107,37 @@ a {
   text-decoration: underline;
 }
 
+.main-navigation {
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-navigation:hover,
+.main-navigation:focus {
+  color: #404BBF;
+}
+
+.main-navigation::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
+.mail-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: #404BBF;
+}
+
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -120,6 +156,7 @@ rgba(46, 47, 66, 0.7)
   background-position: center;
   background-size: cover;
   background-clip: padding-box;
+  max-width: 1440px;
 }
 
 .header {
@@ -143,6 +180,12 @@ rgba(46, 47, 66, 0.7)
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container .btn:hover,
+.container .btn:focus {
+  background-color: #404BBF;
 }
 
 .our-advantages .our-advantages-menu {
@@ -254,7 +297,7 @@ rgba(46, 47, 66, 0.7)
 .social-icon-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
   margin-top: 8px;
 }
 
@@ -266,10 +309,16 @@ rgba(46, 47, 66, 0.7)
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
 }
 
 .icon-image {
-  fill: #ffffff;
+  fill: #f4f4fd;
 }
 .position-container .underheader {
   text-align: center;
@@ -327,7 +376,9 @@ rgba(46, 47, 66, 0.7)
   padding-bottom: 32px;
   background-color: #ffffff;
   text-align: center;
-  box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 
