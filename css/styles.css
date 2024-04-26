@@ -308,6 +308,7 @@ rgba(46, 47, 66, 0.7)
   position: absolute;
   top: 40px;
   right: 32px;
+  overflow: auto;
 }
 
 .shadow-item {
