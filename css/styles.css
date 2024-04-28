@@ -449,7 +449,8 @@ rgba(46, 47, 66, 0.7)
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-list-item .click-link:hover {
+.link-list-item .click-link:hover,
+.link-list-item .click-link:focus{
   background-color: #31D0AA;
 }
 
