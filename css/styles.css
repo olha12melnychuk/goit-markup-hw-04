@@ -450,7 +450,7 @@ rgba(46, 47, 66, 0.7)
 }
 
 .link-list-item .click-link:hover,
-.link-list-item .click-link:focus{
+.link-list-item .click-link:focus {
   background-color: #31D0AA;
 }
 
